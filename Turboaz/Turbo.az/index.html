@@ -1,0 +1,754 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Turbo.az</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      rel="shortcut icon"
+      href="https://play-lh.googleusercontent.com/Xt1Z5bFZrLSD1Yj-N2picwm_wbVvj1CqcEIlsOBPiqGwtJPPuSNwtU9nWZzIYUM8=w240-h480-rw"
+      type="image/x-icon"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+      integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N"
+      crossorigin="anonymous"
+    />
+    <script src="./js/index.js" defer></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script> -->
+  </head>
+  <body>
+    <!-- Header Start -->
+    <header>
+      <div id="header" class="d-flex justify-content-between">
+        <div class="navbar">
+          <a class="font-weight-bold" href="#">TURBO.AZ</a>
+          <a href="#">Bütün elanlar</a>
+          <a href="#">Avtosalonlar</a>
+          <a href="#">Ehtiyyat hisseleri və aksesuarlar</a>
+        </div>
+        <div class="button">
+<button class="btn btn-success">
+  Yeni Elan
+</button>
+        </div>
+      </div>
+    </header>
+    <!-- Header End -->
+
+    <!-- Main Start -->
+    <main>
+      <!-- Searching Section Start -->
+      <section id="searching">
+        <div class="container">
+          <div class="row d-flex flex-wrap">
+            <div class="col-3 mt-2">
+              <select id="inputBrand" class="form-control rounded-lg">
+                <option selected value="">Markani Yazin</option>
+                <option value="280">Abarth</option>
+                <option value="28">Acura</option>
+                <option value="30">Alfa Romeo</option>
+                <option value="156">Aprilia</option>
+                <option value="86">Aston Martin</option>
+                <option value="9">Audi</option>
+                <option value="274">Avia</option>
+                <option value="218">Baic</option>
+                <option value="327">Bajaj</option>
+                <option value="19">Bentley</option>
+                <option value="387">Bestune</option>
+                <option value="136">BMC</option>
+                <option value="3">BMW</option>
+                <option value="62">BMW Alpina</option>
+                <option value="92">Brilliance</option>
+                <option value="84">Buick</option>
+                <option value="378">Bull Motors</option>
+                <option value="51">BYD</option>
+                <option value="395">C.Moto</option>
+                <option value="38">Cadillac</option>
+                <option value="220">Can-Am</option>
+                <option value="397">Cevo</option>
+                <option value="259">CFMOTO</option>
+                <option value="163">Changan</option>
+                <option value="52">Chery</option>
+                <option value="41">Chevrolet</option>
+                <option value="10">Chrysler</option>
+                <option value="27">Citroen</option>
+                <option value="76">Dacia</option>
+                <option value="11">Daewoo</option>
+                <option value="91">DAF</option>
+                <option value="148">Dayun</option>
+                <option value="405">DFSK</option>
+                <option value="162">Dnepr</option>
+                <option value="60">Dodge</option>
+                <option value="117">DongFeng</option>
+                <option value="147">Ducati</option>
+                <option value="79">FAW</option>
+                <option value="42">Ferrari</option>
+                <option value="37">Fiat</option>
+                <option value="2">Ford</option>
+                <option value="49">Foton</option>
+                <option value="159">Gabro</option>
+                <option value="175">GAC</option>
+                <option value="21">GAZ</option>
+                <option value="72">Geely</option>
+                <option value="376">Genesis</option>
+                <option value="263">GIBBS</option>
+                <option value="82">GMC</option>
+                <option value="50">Great Wall</option>
+                <option value="383">Haima</option>
+                <option value="142">Haojue</option>
+                <option value="140">Harley-Davidson</option>
+                <option value="242">Haval</option>
+                <option value="12">Honda</option>
+                <option value="388">Hongqi</option>
+                <option value="110">HOWO</option>
+                <option value="409">Hozon</option>
+                <option value="13">Hummer</option>
+                <option value="1">Hyundai</option>
+                <option value="64">IJ</option>
+                <option value="15">Infiniti</option>
+                <option value="116">Iran Khodro</option>
+                <option value="74">Isuzu</option>
+                <option value="253">ItalCar</option>
+                <option value="67">Iveco</option>
+                <option value="124">JAC</option>
+                <option value="35">Jaguar</option>
+                <option value="36">Jeep</option>
+                <option value="384">Jetour</option>
+                <option value="337">Jianshe</option>
+                <option value="109">JMC</option>
+                <option value="235">Jonway</option>
+                <option value="390">KAIYI</option>
+                <option value="90">KamAz</option>
+                <option value="406">Kanuni</option>
+                <option value="88">KAvZ</option>
+                <option value="139">Kawasaki</option>
+                <option value="237">KAZ</option>
+                <option value="338">Keeway</option>
+                <option value="282">Khazar</option>
+                <option value="8">Kia</option>
+                <option value="169">Kinroad</option>
+                <option value="119">KrAZ</option>
+                <option value="332">Kuba</option>
+                <option value="5">LADA (VAZ)</option>
+                <option value="43">Lamborghini</option>
+                <option value="20">Land Rover</option>
+                <option value="14">Lexus</option>
+                <option value="87">Lifan</option>
+                <option value="46">Lincoln</option>
+                <option value="103">LuAz</option>
+                <option value="329">Mack</option>
+                <option value="112">MAN</option>
+                <option value="44">Maserati</option>
+                <option value="100">MAZ</option>
+                <option value="26">Mazda</option>
+                <option value="326">McLaren</option>
+                <option value="4">Mercedes</option>
+                <option value="252">Mercedes-Maybach</option>
+                <option value="47">Mercury</option>
+                <option value="127">MG</option>
+                <option value="31">Mini</option>
+                <option value="146">Minsk</option>
+                <option value="6">Mitsubishi</option>
+                <option value="286">Mondial</option>
+                <option value="81">Moskvich</option>
+                <option value="243">Muravey</option>
+                <option value="324">Nama</option>
+                <option value="7">Nissan</option>
+                <option value="106">Oldsmobile</option>
+                <option value="29">Opel</option>
+                <option value="114">PAZ</option>
+                <option value="16">Peugeot</option>
+                <option value="247">Polaris</option>
+                <option value="396">Polestar</option>
+                <option value="32">Porsche</option>
+                <option value="105">RAF</option>
+                <option value="272">Ravon</option>
+                <option value="17">Renault</option>
+                <option value="333">RKS</option>
+                <option value="18">Rolls-Royce</option>
+                <option value="78">Rover</option>
+                <option value="80">Saab</option>
+                <option value="94">Saipa</option>
+                <option value="377">SamAuto</option>
+                <option value="93">Saturn</option>
+                <option value="108">Scania</option>
+                <option value="251">Scion</option>
+                <option value="59">SEAT</option>
+                <option value="115">Setra</option>
+                <option value="133">Shacman</option>
+                <option value="132">Shaolin</option>
+                <option value="400">Sinotech</option>
+                <option value="22">Skoda</option>
+                <option value="399">Skywell</option>
+                <option value="61">Smart</option>
+                <option value="402">Soueast</option>
+                <option value="45">Ssang Yong</option>
+                <option value="34">Subaru</option>
+                <option value="33">Suzuki</option>
+                <option value="380">SYM</option>
+                <option value="98">Tatra</option>
+                <option value="245">Tesla</option>
+                <option value="39">Tofas</option>
+                <option value="23">Toyota</option>
+                <option value="233">Triumph</option>
+                <option value="385">Tufan</option>
+                <option value="53">UAZ</option>
+                <option value="145">Ural</option>
+                <option value="223">Vespa</option>
+                <option value="24">Volkswagen</option>
+                <option value="25">Volvo</option>
+                <option value="150">Vosxod</option>
+                <option value="404">Wuling</option>
+                <option value="138">Yamaha</option>
+                <option value="57">ZAZ</option>
+                <option value="403">Zeekr</option>
+                <option value="85">ZIL</option>
+                <option value="285">Zongshen</option>
+                <option value="143">Zontes</option>
+              </select>
+            </div>
+            <div class="col-3 mt-2">
+              <select id="inputModel" class="form-control rounded-lg">
+                <option selected>Model</option>
+                <option>E220</option>
+                <option>E230</option>
+                <option>E240</option>
+                <option>E250</option>
+                <option>E260</option>
+                <option>E270</option>
+              </select>
+            </div>
+            <div class="col-3 mt-2"></div>
+            <div class="col-3 mt-2">
+              <select id="inputCity" class="form-control rounded-lg">
+                <option value="">Seher</option>
+                <option value="4">Ağdam</option>
+                <option value="6">Ağdaş</option>
+                <option value="7">Ağcabədi</option>
+                <option value="77">Hacıqabul</option>
+                <option value="8">Ağstafa</option>
+                <option value="9">Astara</option>
+                <option value="10">Ağsu</option>
+                <option value="78">Babək</option>
+                <option value="1">Bakı</option>
+                <option value="12">Bərdə</option>
+                <option value="13">Beyləqan</option>
+                <option value="14">Balakən</option>
+                <option value="15">Biləsuvar</option>
+                <option value="16">Qəbələ</option>
+                <option value="35">Qax</option>
+                <option value="17">Göyçay</option>
+                <option value="18">Goranboy</option>
+                <option value="21">Qobustan</option>
+                <option value="22">Horadiz</option>
+                <option value="2">Gəncə</option>
+                <option value="19">Göygöl</option>
+                <option value="20">Göytəpə</option>
+                <option value="23">Dəliməmmədli</option>
+                <option value="24">Daşkəsən</option>
+                <option value="25">Cəlilabad</option>
+                <option value="26">Cəbrayıl</option>
+                <option value="27">Culfa</option>
+                <option value="28">Yevlax</option>
+                <option value="29">Zaqatala</option>
+                <option value="31">Zərdab</option>
+                <option value="32">İmişli</option>
+                <option value="33">İsmayıllı</option>
+                <option value="34">Qazax</option>
+                <option value="36">Gədəbəy</option>
+                <option value="38">Quba</option>
+                <option value="40">Qusar</option>
+                <option value="41">Kürdəmir</option>
+                <option value="11">Lənkəran</option>
+                <option value="43">Lerik</option>
+                <option value="44">Liman</option>
+                <option value="45">Masallı</option>
+                <option value="46">Mingəçevir</option>
+                <option value="47">Naftalan</option>
+                <option value="48">Naxçıvan</option>
+                <option value="49">Neftçala</option>
+                <option value="50">Oğuz</option>
+                <option value="51">Ordubad</option>
+                <option value="52">Saatlı</option>
+                <option value="53">Sabirabad</option>
+                <option value="54">Salyan</option>
+                <option value="55">Samux</option>
+                <option value="56">Siyəzən</option>
+                <option value="3">Sumqayıt</option>
+                <option value="57">Tovuz</option>
+                <option value="58">Tərtər</option>
+                <option value="59">Ucar</option>
+                <option value="60">Füzuli</option>
+                <option value="62">Xaçmaz</option>
+                <option value="64">Xocalı</option>
+                <option value="65">Xudat</option>
+                <option value="66">Xızı</option>
+                <option value="67">Xırdalan</option>
+                <option value="68">Şabran</option>
+                <option value="69">Şəmkir</option>
+                <option value="70">Şərur</option>
+                <option value="72">Şəki</option>
+                <option value="73">Şamaxı</option>
+                <option value="74">Şirvan</option>
+                <option value="76">Yardımlı</option>
+              </select>
+            </div>
+            <div class="col-3 d-flex mt-2">
+              <input type="number" class="w-50 rounded-left" placeholder="Qiymet,max" />
+              <input type="number" class="w-50 rounded-right" placeholder="min" />
+            </div>
+            <div class="col-3 d-flex mt-2">
+              <div class="w-50  rounded-lg">
+                <select class="form-control w-100" id="inputExchange">
+                  <option selected value="azn">AZN</option>
+                  <option value="usd">USD</option>
+                  <option value="euro">EURO</option>
+                </select>
+              </div>
+              <div id="credit" class="w-25">
+                <label
+                  for="creditCheck"
+                  class="text-center   mt-2"
+                  id="creditLabel"
+                  >KREDIT</label
+                >
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  name="creditCheck"
+                  id="creditCheck"
+                  value="0"
+                />
+              </div>
+              <div id="barter" class="w-25" >
+                <label
+                  for="barterCheck"
+                  class="text-center mt-2"
+                  id="barterLabel"
+                  >BARTER</label
+                >
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  name="barterCheck"
+                  id="barterCheck"
+                  value="0"
+                />
+              </div>
+            </div>
+            <div class="col-3 mt-2">
+              <select id="inputBan" class="form-control rounded-lg">
+                <option selected value="">Ban Novu</option>
+                <option value="1">Sedan</option>
+                <option value="2">Furqon</option>
+                <option value="3">Hetcbek</option>
+                <option value="4">Kupe</option>
+                <option value="5">Kabriolet</option>
+                <option value="6">Karvan</option>
+              </select>
+            </div>
+            <div class="col-3 d-flex mt-2">
+              <select class=" w-50 rounded-left" id="inputMinYear">
+                <option selected value="">Il, min</option>
+                <option value="2023">2023</option>
+                <option value="2022">2022</option>
+                <option value="2021">2021</option>
+                <option value="2020">2020</option>
+                <option value="2019">2019</option>
+                <option value="2018">2018</option>
+                <option value="2017">2017</option>
+                <option value="2016">2016</option>
+                <option value="2015">2015</option>
+                <option value="2014">2014</option>
+                <option value="2013">2013</option>
+                <option value="2012">2012</option>
+                <option value="2011">2011</option>
+                <option value="2010">2010</option>
+                <option value="2009">2009</option>
+                <option value="2008">2008</option>
+                <option value="2007">2007</option>
+                <option value="2006">2006</option>
+                <option value="2005">2005</option>
+                <option value="2004">2004</option>
+                <option value="2003">2003</option>
+                <option value="2002">2002</option>
+                <option value="2001">2001</option>
+                <option value="2000">2000</option>
+                <option value="1999">1999</option>
+                <option value="1998">1998</option>
+                <option value="1997">1997</option>
+                <option value="1996">1996</option>
+                <option value="1995">1995</option>
+                <option value="1994">1994</option>
+                <option value="1993">1993</option>
+                <option value="1992">1992</option>
+                <option value="1991">1991</option>
+                <option value="1990">1990</option>
+              </select>
+              <select class=" w-50 rounded-right" id="inputMaxYear">
+                <option selected value="">max</option>
+                <option value="2023">2023</option>
+                <option value="2022">2022</option>
+                <option value="2021">2021</option>
+                <option value="2020">2020</option>
+                <option value="2019">2019</option>
+                <option value="2018">2018</option>
+                <option value="2017">2017</option>
+                <option value="2016">2016</option>
+                <option value="2015">2015</option>
+                <option value="2014">2014</option>
+                <option value="2013">2013</option>
+                <option value="2012">2012</option>
+                <option value="2011">2011</option>
+                <option value="2010">2010</option>
+                <option value="2009">2009</option>
+                <option value="2008">2008</option>
+                <option value="2007">2007</option>
+                <option value="2006">2006</option>
+                <option value="2005">2005</option>
+                <option value="2004">2004</option>
+                <option value="2003">2003</option>
+                <option value="2002">2002</option>
+                <option value="2001">2001</option>
+                <option value="2000">2000</option>
+                <option value="1999">1999</option>
+                <option value="1998">1998</option>
+                <option value="1997">1997</option>
+                <option value="1996">1996</option>
+                <option value="1995">1995</option>
+                <option value="1994">1994</option>
+                <option value="1993">1993</option>
+                <option value="1992">1992</option>
+                <option value="1991">1991</option>
+                <option value="1990">1990</option>
+              </select>
+            </div>
+            <div class="col-12 mt-3 d-flex justify-content-between">
+                <span>Elan Sayi : 2000</span>
+                <button type="button" class="btn btn-danger">Elanlari Goster</button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Searching Section End -->
+
+      <!-- VIP Announce Section Start -->
+      <section id="vip-announcument">
+        <div class="container">
+          <div  class="section-info row d-flex justify-content-between my-3">
+            <span id="section-name" class="font-weight-bold">VIP ELANLAR</span>
+            <img
+              id="advertising"
+              src="https://cdn.digit.az/KAPITALBANK/2022/3/kapital.png"
+              alt="KAPITALBANK"
+            />
+          </div>
+          <div class="row d-flex flex-wrap">
+            <div class="col-3 p-3">
+              <div class="items border border-dark rounded-lg">
+                <img
+                  src="https://turbo.azstatic.com/uploads/f460x343/2023%2F01%2F31%2F20%2F31%2F46%2F634d9e86-0dad-49a6-ad1a-f03b110228cd%2F12015_tOFcXU295ZrsRZy7Px8LhA.jpg"
+                  alt="car"
+                />
+                <div class="info pl-3">
+                  <div class="car-price font-weight-bold">
+                    <span>45.000AZN</span>
+                  </div>
+                  <div class="car-name"><span>Opel Astra</span></div>
+                  <div class="car-info">
+                    <span>2006, 1.3 L, 203.000 km</span>
+                  </div>
+                  <div class="announce-info">
+                    <span>Baki, dunen 13:53</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-3 p-3">
+              <div class="items border border-dark rounded-lg">
+                <img
+                  src="https://turbo.azstatic.com/uploads/f460x343/2023%2F01%2F31%2F20%2F31%2F46%2F634d9e86-0dad-49a6-ad1a-f03b110228cd%2F12015_tOFcXU295ZrsRZy7Px8LhA.jpg"
+                  alt="car"
+                />
+                <div class="info pl-3">
+                  <div class="car-price font-weight-bold">
+                    <span>45.000AZN</span>
+                  </div>
+                  <div class="car-name"><span>Opel Astra</span></div>
+                  <div class="car-info">
+                    <span>2006, 1.3 L, 203.000 km</span>
+                  </div>
+                  <div class="announce-info">
+                    <span>Baki, dunen 13:53</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-3 p-3">
+              <div class="items border border-dark rounded-lg">
+                <img
+                  src="https://turbo.azstatic.com/uploads/f460x343/2023%2F01%2F31%2F20%2F31%2F46%2F634d9e86-0dad-49a6-ad1a-f03b110228cd%2F12015_tOFcXU295ZrsRZy7Px8LhA.jpg"
+                  alt="car"
+                />
+                <div class="info pl-3">
+                  <div class="car-price font-weight-bold">
+                    <span>45.000AZN</span>
+                  </div>
+                  <div class="car-name"><span>Opel Astra</span></div>
+                  <div class="car-info">
+                    <span>2006, 1.3 L, 203.000 km</span>
+                  </div>
+                  <div class="announce-info">
+                    <span>Baki, dunen 13:53</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-3 p-3">
+              <div class="items border border-dark rounded-lg">
+                <img
+                  src="https://turbo.azstatic.com/uploads/f460x343/2023%2F01%2F31%2F20%2F31%2F46%2F634d9e86-0dad-49a6-ad1a-f03b110228cd%2F12015_tOFcXU295ZrsRZy7Px8LhA.jpg"
+                  alt="car"
+                />
+                <div class="info pl-3">
+                  <div class="car-price font-weight-bold">
+                    <span>45.000AZN</span>
+                  </div>
+                  <div class="car-name"><span>Opel Astra</span></div>
+                  <div class="car-info">
+                    <span>2006, 1.3 L, 203.000 km</span>
+                  </div>
+                  <div class="announce-info">
+                    <span>Baki, dunen 13:53</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- VIP Announce Section End -->
+
+      <!-- Announcument Section Start -->
+      <section id="announcument">
+        <div class="container">
+          <div class="section-info row my-3">
+            <span id="section-name" class="font-weight-bold">ELANLAR</span>
+          </div>
+          <div class="row d-flex flex-wrap">
+            <div class="col-3 p-3">
+              <div class="items border border-dark rounded-lg">
+                <img
+                  src="https://turbo.azstatic.com/uploads/f460x343/2023%2F01%2F31%2F20%2F31%2F46%2F634d9e86-0dad-49a6-ad1a-f03b110228cd%2F12015_tOFcXU295ZrsRZy7Px8LhA.jpg"
+                  alt="car"
+                />
+                <div class="info pl-3">
+                  <div class="car-price font-weight-bold">
+                    <span>45.000AZN</span>
+                  </div>
+                  <div class="car-name"><span>Opel Astra</span></div>
+                  <div class="car-info">
+                    <span>2006, 1.3 L, 203.000 km</span>
+                  </div>
+                  <div class="announce-info">
+                    <span>Baki, dunen 13:53</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-3 p-3">
+              <div class="items border border-dark rounded-lg">
+                <img
+                  src="https://turbo.azstatic.com/uploads/f460x343/2023%2F01%2F31%2F20%2F31%2F46%2F634d9e86-0dad-49a6-ad1a-f03b110228cd%2F12015_tOFcXU295ZrsRZy7Px8LhA.jpg"
+                  alt="car"
+                />
+                <div class="info pl-3">
+                  <div class="car-price font-weight-bold">
+                    <span>45.000AZN</span>
+                  </div>
+                  <div class="car-name"><span>Opel Astra</span></div>
+                  <div class="car-info">
+                    <span>2006, 1.3 L, 203.000 km</span>
+                  </div>
+                  <div class="announce-info">
+                    <span>Baki, dunen 13:53</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-3 p-3">
+              <div class="items border border-dark rounded-lg">
+                <img
+                  src="https://turbo.azstatic.com/uploads/f460x343/2023%2F01%2F31%2F20%2F31%2F46%2F634d9e86-0dad-49a6-ad1a-f03b110228cd%2F12015_tOFcXU295ZrsRZy7Px8LhA.jpg"
+                  alt="car"
+                />
+                <div class="info pl-3">
+                  <div class="car-price font-weight-bold">
+                    <span>45.000AZN</span>
+                  </div>
+                  <div class="car-name"><span>Opel Astra</span></div>
+                  <div class="car-info">
+                    <span>2006, 1.3 L, 203.000 km</span>
+                  </div>
+                  <div class="announce-info">
+                    <span>Baki, dunen 13:53</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-3 p-3">
+              <div class="items border border-dark rounded-lg">
+                <img
+                  src="https://turbo.azstatic.com/uploads/f460x343/2023%2F01%2F31%2F20%2F31%2F46%2F634d9e86-0dad-49a6-ad1a-f03b110228cd%2F12015_tOFcXU295ZrsRZy7Px8LhA.jpg"
+                  alt="car"
+                />
+                <div class="info pl-3">
+                  <div class="car-price font-weight-bold">
+                    <span>45.000AZN</span>
+                  </div>
+                  <div class="car-name"><span>Opel Astra</span></div>
+                  <div class="car-info">
+                    <span>2006, 1.3 L, 203.000 km</span>
+                  </div>
+                  <div class="announce-info">
+                    <span>Baki, dunen 13:53</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Announcument Section End -->
+
+      <!-- Premium Section Start -->
+      <section id="premium-announcument">
+        <div class="container">
+          <div class="section-info row my-3">
+            <span id="section-name" class="font-weight-bold"
+              >PREMIUM ELANLAR</span
+            >
+          </div>
+          <div class="row d-flex flex-wrap">
+            <div class="col-3 p-3">
+              <div class="items border border-dark rounded-lg">
+                <img
+                  src="https://turbo.azstatic.com/uploads/f460x343/2023%2F01%2F31%2F20%2F31%2F46%2F634d9e86-0dad-49a6-ad1a-f03b110228cd%2F12015_tOFcXU295ZrsRZy7Px8LhA.jpg"
+                  alt="car"
+                />
+                <div class="info pl-3">
+                  <div class="car-price font-weight-bold">
+                    <span>45.000AZN</span>
+                  </div>
+                  <div class="car-name"><span>Opel Astra</span></div>
+                  <div class="car-info">
+                    <span>2006, 1.3 L, 203.000 km</span>
+                  </div>
+                  <div class="announce-info">
+                    <span>Baki, dunen 13:53</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-3 p-3">
+              <div class="items border border-dark rounded-lg">
+                <img
+                  src="https://turbo.azstatic.com/uploads/f460x343/2023%2F01%2F31%2F20%2F31%2F46%2F634d9e86-0dad-49a6-ad1a-f03b110228cd%2F12015_tOFcXU295ZrsRZy7Px8LhA.jpg"
+                  alt="car"
+                />
+                <div class="info pl-3">
+                  <div class="car-price font-weight-bold">
+                    <span>45.000AZN</span>
+                  </div>
+                  <div class="car-name"><span>Opel Astra</span></div>
+                  <div class="car-info">
+                    <span>2006, 1.3 L, 203.000 km</span>
+                  </div>
+                  <div class="announce-info">
+                    <span>Baki, dunen 13:53</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-3 p-3">
+              <div class="items border border-dark rounded-lg">
+                <img
+                  src="https://turbo.azstatic.com/uploads/f460x343/2023%2F01%2F31%2F20%2F31%2F46%2F634d9e86-0dad-49a6-ad1a-f03b110228cd%2F12015_tOFcXU295ZrsRZy7Px8LhA.jpg"
+                  alt="car"
+                />
+                <div class="info pl-3">
+                  <div class="car-price font-weight-bold">
+                    <span>45.000AZN</span>
+                  </div>
+                  <div class="car-name"><span>Opel Astra</span></div>
+                  <div class="car-info">
+                    <span>2006, 1.3 L, 203.000 km</span>
+                  </div>
+                  <div class="announce-info">
+                    <span>Baki, dunen 13:53</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-3 p-3">
+              <div class="items border border-dark rounded-lg">
+                <img
+                  src="https://turbo.azstatic.com/uploads/f460x343/2023%2F01%2F31%2F20%2F31%2F46%2F634d9e86-0dad-49a6-ad1a-f03b110228cd%2F12015_tOFcXU295ZrsRZy7Px8LhA.jpg"
+                  alt="car"
+                />
+                <div class="info pl-3">
+                  <div class="car-price font-weight-bold">
+                    <span>45.000AZN</span>
+                  </div>
+                  <div class="car-name"><span>Opel Astra</span></div>
+                  <div class="car-info">
+                    <span>2006, 1.3 L, 203.000 km</span>
+                  </div>
+                  <div class="announce-info">
+                    <span>Baki, dunen 13:53</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Premium Section End -->
+    </main>
+    <!-- Main End -->
+
+    <!-- Footer Start -->
+    <footer>
+      <div id="contact" class="d-flex justify-content-between">
+        <a class="font-weight-bold" href="#">Reklam Yerlesdirin</a>
+        <div id="contact-items">
+          <a href="#"> <img src="https://cdn-icons-png.flaticon.com/512/59/59439.png" alt="fb-icon"> </a>
+          <a href="#"><img src="https://www.freepnglogos.com/uploads/logo-ig-png/logo-ig-instagram-icon-download-icons-12.png" alt="insta-icon"></a>
+          <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/1004/1004017.png" alt="message-icon">
+          <span class="font-weight-bold">turbo@turbo.az</span></a>
+          <a href="#"><img src="https://www.transparentpng.com/thumb/telephone/mobile-phone-icon-windows-png-23.png" alt="phone-icon">
+          <span class="font-weight-bold">(012) 599-08-01</span>
+          </a>
+        </div>
+      </div>
+          <div id="rules-and-law">
+              <ul class="list-group list-group-horizontal d-flex w-50 justify-content-between ">
+                  <li class="list-group-item"><a href="#">Qaydalar</a></li>
+                  <li class="list-group-item"><a href="#">Qanun</a></li>
+                  <li class="list-group-item"><a href="#">Istifadəçi razılaşması</a></li>
+                  <li class="list-group-item"><a href="#">Məxfilik siyasəti</a></li>
+              </ul>
+          </div>
+          <div id="innformation-advertising" class="d-flex justify-content-between">
+              <p>Saytın Administrasiyası reklam bannerlərinin və yerləşdirilmiş <br> elanların məzmununa görə məsuliyyət daşımır.</p>
+              <p>2006-2023 Digital Classifieds MMC. VÖEN: 1405631661 </p>
+              <a href="#">Mobil versiyası</a>
+          </div>
+  </footer>
+  <!-- Footer End -->
+  </body>
+</html>

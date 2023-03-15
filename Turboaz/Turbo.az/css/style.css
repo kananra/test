@@ -1,0 +1,149 @@
+header {
+  background-color: #ca1016;
+}
+header #header {
+  height: 60px;
+  width: 1080px !important;
+  margin: 0 auto;
+  padding-right: 25px !important;
+}
+header #header .navbar > a {
+  color: white;
+  text-decoration: none;
+  margin: 0 7px;
+  font-size: 20px;
+  letter-spacing: -0.4;
+}
+header #header .button {
+  margin-top: 7px;
+}
+header #header .button button {
+  font-size: 20px;
+}
+
+main {
+  width: 1080px !important;
+  background-color: #f6f7fa;
+  margin: 0 auto;
+}
+
+.section-info {
+  background-color: #f1f3f7;
+  height: 50px;
+}
+
+footer {
+  width: 1080px !important;
+  margin: 0 auto;
+}
+footer #contact {
+  height: 50px;
+  margin: auto 0 !important;
+  padding: 0 25px !important;
+  background-color: #f6f7fa;
+}
+footer #contact a {
+  color: black;
+  text-decoration: none;
+}
+footer #contact a :hover {
+  color: red;
+}
+footer #contact #contact-items img {
+  width: 22px;
+  color: rgb(185, 185, 185) !important;
+}
+footer #contact #contact-items img :hover {
+  color: red;
+}
+footer #rules-and-law a {
+  color: black;
+}
+footer #innformation-advertising {
+  background-color: #ca1016;
+  padding: 12px 10px 0;
+  color: white;
+}
+footer #innformation-advertising a {
+  color: white;
+}
+
+#vip-announcument #section-name {
+  margin-left: 20px;
+  margin-top: 12px;
+}
+#vip-announcument #advertising {
+  width: 400px;
+  height: 30px;
+}
+#vip-announcument .col-3:hover {
+  box-shadow: 0 0 20px rgba(33, 33, 33, 0.2);
+  border-radius: 10px;
+}
+#vip-announcument .col-3 img {
+  width: 100%;
+  height: 170px;
+}
+#vip-announcument .col-3 .car-price {
+  font-size: 20px;
+}
+
+#announcument #section-name {
+  margin-left: 20px;
+  margin-top: 12px;
+}
+#announcument .col-3:hover {
+  box-shadow: 0 0 20px rgba(33, 33, 33, 0.2);
+  border-radius: 10px;
+}
+#announcument .col-3 img {
+  width: 100%;
+  height: 170px;
+}
+#announcument .col-3 .car-price {
+  font-size: 20px;
+}
+
+#premium-announcument #section-name {
+  margin-left: 20px;
+  margin-top: 12px;
+}
+#premium-announcument .col-3:hover {
+  box-shadow: 0 0 20px rgba(33, 33, 33, 0.2);
+  border-radius: 10px;
+}
+#premium-announcument .col-3 img {
+  width: 100%;
+  height: 170px;
+}
+#premium-announcument .col-3 .car-price {
+  font-size: 20px;
+}
+
+#credit {
+  border: 1px solid black;
+  border-radius: 5px;
+}
+#credit #creditCheck {
+  opacity: 0;
+}
+#credit #creditLabel {
+  padding-left: 5px;
+}
+
+#barter {
+  border: 1px solid black;
+  border-radius: 5px;
+}
+#barter #barterCheck {
+  opacity: 0;
+}
+#barter #barterLabel {
+  padding-left: 5px;
+}/*# sourceMappingURL=style.css.map */
+
+.tittle{
+  height: 60px;
+  padding: 0 20px;
+  
+}
