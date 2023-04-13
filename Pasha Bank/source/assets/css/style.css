@@ -1,0 +1,389 @@
+.navbar {
+  position: fixed;
+  width: 100%;
+  z-index: 20;
+  top: 0;
+  background-color: #fff !important;
+}
+
+.navbar .navbar-nav li {
+  margin: 0 20px;
+}
+
+.navbar .navbar-nav .menu-dropdown {
+  background-color: white;
+  display: none;
+  position: absolute;
+  width: 70%;
+  flex-wrap: wrap;
+  margin-right: -12px;
+  margin-left: -12px;
+  z-index: 20;
+}
+
+.navbar .navbar-nav .active {
+  display: block;
+}
+
+.navbar .navbar-nav .navbar-menu-li {
+  list-style: none;
+  margin: 15px 5px;
+}
+
+.navbar .navbar-nav .navbar-menu-li a {
+  color: #00000061;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0.15px;
+}
+
+.navbar .credits-menu .navbar-menu-li {
+  list-style: none;
+  margin: 15px 5px;
+}
+
+.navbar .credits-menu .navbar-menu-li a {
+  color: #00000061;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0.15px;
+}
+
+.navbar #header-dropdown-btn {
+  display: flex;
+  justify-content: flex-end;
+  width: 30%;
+}
+
+.navbar #header-dropdown-btn button {
+  margin-right: 30px;
+}
+
+@media only screen and (max-width: 538px) {
+  .navbar #header-dropdown-btn {
+    justify-content: flex-start;
+  }
+}
+
+.lists li {
+  color: rgba(0, 0, 0, 0.6);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.25px;
+  margin-bottom: 16px;
+}
+
+.font-style {
+  color: rgba(0, 0, 0, 0.6);
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  letter-spacing: 0.25px;
+}
+
+.font {
+  font-family: "Gothic A1";
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.btn-color {
+  background-color: #058d66;
+  color: #ffff;
+}
+
+.dropdown .list-item {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0.15px;
+}
+
+.dropdown a:hover + div {
+  display: block;
+}
+
+img.size {
+  height: 504px;
+  object-fit: contain;
+  object-position: right;
+}
+
+img.acc {
+  background-color: #ffebf0;
+}
+
+img.group405 {
+  background-color: #fdf6e7;
+}
+
+img.img1 {
+  background-color: #e7f4f9;
+}
+
+img.sme {
+  background-color: #e0f3ed;
+}
+
+.slide-title {
+  font-size: 48px;
+  line-height: 56px;
+  color: rgba(0, 0, 0, 0.87);
+  margin-bottom: 46px;
+}
+
+.slide-text {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  color: rgba(0, 0, 0, 0.87);
+  margin-bottom: 46px;
+}
+
+.carousel-caption {
+  right: 43%;
+  bottom: 145px;
+  left: 13%;
+  text-align: start;
+}
+
+.btn-size {
+  height: 56px;
+  min-width: 144px;
+  padding: 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  outline: none;
+  border: none;
+}
+
+.style-h4 {
+  font-size: 32px;
+  line-height: 48px;
+  letter-spacing: 0.25px;
+}
+
+.zoom-in-up svg {
+  fill: green;
+  width: 40px;
+  height: 40px;
+}
+
+.zoom-in-up h6 {
+  font-size: 20px;
+  font-weight: 600;
+  color: black;
+}
+
+.mainpage-benefits {
+  border-radius: 8px;
+  background-color: #fff;
+  width: 368px;
+  padding: 24px 24px 16px;
+  box-shadow: 0 2px 7px rgba(0, 0, 0, 0.07);
+  margin-right: 24px;
+}
+
+.mainpage-benefits:hover {
+  box-shadow: 1px 1px 1px 1px #888888;
+}
+
+.list-bullets {
+  list-style: none;
+  padding-left: initial;
+}
+
+.list-bullets li {
+  background: url(../icons/done.svg) no-repeat;
+  background-size: 20px;
+  background-position-y: top;
+  padding: 0 28px;
+}
+
+.link span {
+  color: #099a71;
+}
+
+.link .icon {
+  width: 16px;
+  height: 16px;
+}
+
+.scrollable-content {
+  width: fit-content;
+}
+
+.product-pos {
+  background: url(../images/pos-terminal.png) no-repeat;
+  background-position: right;
+  margin-bottom: 24px;
+  width: 555px;
+  background-color: #e7f4f9;
+  padding-right: 280px;
+}
+
+.zoom-out h5 {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 32px;
+  color: black;
+}
+
+.product-card {
+  background: url(../images/business-cards.png) no-repeat;
+  background-position: right;
+  margin-bottom: 24px;
+  width: 555px;
+  background-color: #ffebf0;
+  padding-right: 280px;
+}
+
+.product-factor {
+  background: url(../images/factoring.png) no-repeat;
+  background-position: right;
+  margin-bottom: 24px;
+  width: 362px;
+  background-color: #fdf6e7;
+  padding-right: 110px;
+}
+
+.product-e-commerce {
+  background: url(../images/e-commerce.png) no-repeat;
+  background-position: right;
+  margin-bottom: 24px;
+  width: 362px;
+  background-color: #e0f3ed;
+  padding-right: 110px;
+}
+
+.product-bank {
+  background: url(../images/bank-guarantee.png) no-repeat;
+  background-position: right;
+  margin-bottom: 24px;
+  width: 362px;
+  background-color: #f4f5f4;
+  padding-right: 110px;
+}
+
+#features {
+  min-height: 653px;
+  background: url(../images/online-bank.png);
+  background-size: 739px;
+  background-repeat: no-repeat;
+  background-position: 100% 0;
+  margin-top: 96px;
+}
+
+.style-h5 {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 32px;
+}
+
+.features-item p {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+}
+
+.style-h2 {
+  font-size: 60px;
+  font-weight: 300;
+  line-height: 72px;
+  letter-spacing: -0.5px;
+}
+
+img.azn {
+  width: 17px;
+  height: 18px;
+}
+
+.monthly {
+  color: rgba(0, 0, 0, 0.38);
+}
+
+.subtittle {
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+  font-weight: 600;
+}
+
+.color-green {
+  color: #099a71;
+}
+
+.more-about {
+  background-color: rgba(255, 255, 255, 0);
+  color: #099a71;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+  font-weight: 600;
+  border-radius: 6px;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 290px;
+  height: 40px;
+  padding: 8px 16px;
+}
+
+.more-about:hover {
+  background-color: #d4ebe5;
+  transition: background 0.7s, color 0.4s;
+}
+
+#mobile-banking {
+  background-color: #fff;
+  background-image: url(../images/mobile-image.svg);
+  background-repeat: no-repeat;
+  background-position: 100% 0;
+  background-size: contain;
+  margin-top: 96px;
+  padding-top: 70px;
+  padding-bottom: 105px;
+}
+
+.style-h6 {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: .15px;
+}
+
+img.sizes {
+  width: 141px;
+  vertical-align: baseline;
+}
+
+#fx-rates {
+  margin-top: 96px;
+}
+
+.table {
+  width: 100%;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0 2px 7px rgba(0, 0, 0, 0.07);
+  text-align: left;
+  overflow: hidden;
+}
+
+.table td {
+  vertical-align: middle;
+  padding: 28px 16px;
+}
+
+.icon-xl {
+  width: 40px;
+  height: 40px;
+}
